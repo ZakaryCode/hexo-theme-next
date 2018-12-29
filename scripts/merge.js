@@ -1879,7 +1879,7 @@ function isArrayLikeObject(value) {
  * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
  * @example
  *
- * _.isBuffer(new Buffer(2));
+ * _.isBuffer(new Buffer.from(2));
  * // => true
  *
  * _.isBuffer(new Uint8Array(2));
